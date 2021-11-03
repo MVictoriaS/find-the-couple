@@ -1,0 +1,78 @@
+body {
+    background-color: burlywood;
+    margin: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenier1 {
+    background-color: cadetblue;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.contanier2 {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+
+.div-image {
+    background-color: white;
+    border: 2px solid saddlebrown;
+    margin: 1rem;
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/*Imagenes*/
+.plane {
+    background-image: url('./fotoavion.jpg');
+}
+.nube {
+    background-image: url('./nube.jpg');
+}
+.luna {
+    background-image: url('./luna.jpg');
+}
+.mafalda {
+    background-image: url('./mafalda.jpg');
+}
+.meat {
+    background-image: url('./carne.jpg');
+}
+.sol {
+    background-image: url('./sol.jpg');
+}
+
+
+.contanier3 {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+
+
+.unflipped {
+    background-image: none;
+}
+
+
+
+
